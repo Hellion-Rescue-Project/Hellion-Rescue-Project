@@ -25,7 +25,7 @@ This repo is only used to store old ideas and thoughts we had when we started HR
 
 # How do I install?
 
-The newest version of Hellion Rescue Project currently released is HRP-L 1.2.2. To install this version, please go to https://hellionrp.space/install and run the downloaded file. This will install our launcher, from which you can install the main mod.
+The newest version of Hellion Rescue Project currently released is HRP-L 1.2.2. To install this version, please go to https://hellionrp.space.
 
 -------------------------
 
