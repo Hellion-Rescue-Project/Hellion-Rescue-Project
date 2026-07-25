@@ -1,0 +1,55 @@
+name: Bug report
+description: Report an issue with the game
+type: bug
+body:
+  - type: dropdown
+    attributes:
+      label: Vanilla or HRP
+      description: Is this issue present in the Vanilla game (0.5.2) or did it begin appearing in Hellion Rescue Project?
+      options:
+        - Please select an option
+        - Vanilla (0.5.2)
+        - Hellion Rescue Project (1.0.0+)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Client Version
+      description: What version of the game are you playing? You can see on the title screen.
+      options:
+        - Please select an option
+        - Vanilla (0.5.2)
+        - Hellion Rescue Project 1.2.2 (Latest)
+        - Hellion Rescue Project 1.3.0 (Beta)
+        - Other version
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: Please describe the bug.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction Steps
+      description: Clear, step-by-step instructions on how to reproduce the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: upload
+    attributes:
+      label: Upload screenshots
+      description: If helpful to understanding the issue, please attach some screenshots.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any other information about the bug.
+    validations:
+      required: false
