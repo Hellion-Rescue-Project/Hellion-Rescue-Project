@@ -4,18 +4,8 @@ type: bug
 body:
   - type: dropdown
     attributes:
-      label: Vanilla or HRP
-      description: Is this issue present in the Vanilla game (0.5.2) or did it begin appearing in Hellion Rescue Project?
-      options:
-        - Please select an option
-        - Vanilla (0.5.2)
-        - Hellion Rescue Project (1.0.0+)
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Client Version
-      description: What version of the game are you playing? You can see on the title screen.
+      label: First Version of Appearance
+      description: What version did this issue begin appearing in? Does it originate in the Vanilla game or did Hellion Rescue Project create it?
       options:
         - Please select an option
         - Vanilla (0.5.2)
